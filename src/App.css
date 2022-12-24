@@ -1,0 +1,7 @@
+.weather-title{
+    display: flex;
+    justify-content: center;
+    color: cornflowerblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
