@@ -8,7 +8,7 @@ export default function Weather(){
   const [error,setError]=useState(null)
 
   const searchCity=()=>{
-    const APIKey= 'a1738de39866debb8de5b59bae008cc8';
+    const APIKey= '494be01dc72f965037eb55a702841273';
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`)
     .then((res)=>res.json())
     .then((response)=>{
